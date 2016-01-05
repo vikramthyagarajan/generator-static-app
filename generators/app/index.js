@@ -13,7 +13,7 @@ module.exports = yeoman.generators.Base.extend({
     ));
 
     //specifying arguments and options
-    this.argument('appname', { type: String});
+    this.argument('appname', { type: String, required: false});
 
     this.userConfig = {};
   },
