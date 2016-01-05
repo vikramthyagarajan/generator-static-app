@@ -1,0 +1,10 @@
+{
+  "name": "<%= projectName %>",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {
+  }
+}
