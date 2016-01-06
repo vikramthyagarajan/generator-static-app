@@ -13,8 +13,31 @@ npm install -g generator-static-app
 Then generate your new project:
 
 ```bash
-yo static-app
+yo static-app appName
 ```
+
+##Running the project:
+
+Put your static app within the public directory of the generated project, then run
+```
+gulp serve
+```
+and point your browser to the livereloaded server at localhost:3000 to see your app
+
+##Building the project for Production:
+
+Build the app for production, which minifies and optimizes files etc with
+```
+gulp build
+```
+then, you can run this production ready code with
+```
+NODE_ENV=production node .
+```
+
+## Additional Notes:
+Do include all your css and js links within the <inject:css> and <inject:js> blocks within public/index.html.
+This way, all your required js and css files will be minified and linked during production
 
 ## Getting To Know Yeoman
 
