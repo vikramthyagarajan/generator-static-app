@@ -1,12 +1,12 @@
 {
   "name": "generator-static-app",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A generator for creating a static web app",
   "homepage": "",
   "author": {
     "name": "Vikram Thyagarajan",
     "email": "viksdegod@gmail.com",
-    "url": ""
+    "url": "https://github.com/vikramthyagarajan/generator-static-app"
   },
   "files": [
     "generators"
@@ -23,14 +23,14 @@
     "yosay": "^1.0.2"
   },
   "devDependencies": {
-    "yeoman-assert": "^2.0.0",
     "gulp": "^3.6.0",
     "gulp-eslint": "^1.0.0",
     "gulp-exclude-gitignore": "^1.0.0",
     "gulp-istanbul": "^0.9.0",
     "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
     "gulp-plumber": "^1.0.0",
-    "gulp-nsp": "^2.1.0"
+    "yeoman-assert": "^2.0.0"
   },
   "repository": "vikramthyagarajan/generator-static-app",
   "scripts": {
